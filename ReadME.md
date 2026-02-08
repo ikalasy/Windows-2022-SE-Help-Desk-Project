@@ -1,4 +1,4 @@
-# 🖳 Self-hosted-Windows-11-Server-2022-Project 
+# 🖳 Windows 2022 SE Help Desk Project
 **🚧 This Documentation is in progress!! 🚧**  
 *This project was dedicated to practicing Active Directory, Intune, Jira Service Management (My ticketing system, and joining a machine to a domain controller. I utilized the level 2 hypervisor Virtual Box to host multiple virtual machines, with one being used to host the Windows server, and the other as a Windows user, mirroring a workplace enviroment that allowed me to simulate help-desk/technical-support tasks and ticket management.*
 
