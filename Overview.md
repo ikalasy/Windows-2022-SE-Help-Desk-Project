@@ -11,11 +11,12 @@
   -`Jira Service Management`
 
 # ⌨️ How to replicate this project!
-Follow this series by Kevtech IT Support (https://www.youtube.com/playlist?list=PLdh13bXVc6-nhNqrV6pNQFsBXtUxm5hiK), you could also just follow along with my steps in [My Process](./MyProcess.md)  
+Follow this series by Kevtech IT Support (https://www.youtube.com/playlist?list=PLdh13bXVc6-nhNqrV6pNQFsBXtUxm5hiK), you could also just follow along with my steps in [My Process](./MyProcess.md)   
+
 For ticket management use Jira Service Management (**FREE!!!**), and make sure to allocate at least 6-8gbs of ram to each VM (I learned the hard way)
 
 *The downloads you'll need are listed **HERE!!:***
-  -https://www.microsoft.com/en-us/software-download/windows11
+  -[Windows 11 Download]([url](https://www.microsoft.com/en-us/software-download/windows11))  
   -https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022
 
 To get the .iso file you'll need for your user VM, run the windows11 setup installer from the first link, run it, and select to obtain the .iso file.
