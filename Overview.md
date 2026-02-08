@@ -11,7 +11,7 @@
   -`Jira Service Management`
 
 # ⌨️ How to replicate this project!
-Follow this series by Kevtech IT Support (https://www.youtube.com/playlist?list=PLdh13bXVc6-nhNqrV6pNQFsBXtUxm5hiK), you could also just follow along with my steps in [My Process](./My-Process.md)  
+Follow this series by Kevtech IT Support (https://www.youtube.com/playlist?list=PLdh13bXVc6-nhNqrV6pNQFsBXtUxm5hiK), you could also just follow along with my steps in [My Process](./MyProcess.md)  
 For ticket management use Jira Service Management (**FREE!!!**), and make sure to allocate at least 6-8gbs of ram to each VM (I learned the hard way)
 
 *The downloads you'll need are listed **HERE!!:***
