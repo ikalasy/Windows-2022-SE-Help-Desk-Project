@@ -14,12 +14,21 @@ Step-by-step of how I setup this project. This project is optimized for scalabil
       1. Select Custom Install, and then next. Your windows download will begin so just sit tight. :)
       	1. Once the VM begins rebooting, remove the boot up disk. Then input a password for the Admin.
 
-3. Navigate to `local server` and click on your computer's name.<br /> <img width="612" height="142" alt="image" src="https://github.com/user-attachments/assets/2d130a18-d6ab-4480-b88d-9d736f8ca5a8" /> <br />
-   1.  <img width="368" height="42" alt="image" src="https://github.com/user-attachments/assets/363269c8-9023-4eb7-841e-aed9ba97b5b5" /> <--- then select CHANGE in the bottom right 
-	1. Change the name of your computer to `AL-DC-01` (AL can be substituted for your state). <br /> <img width="311" height="371" alt="image" src="https://github.com/user-attachments/assets/d209356e-f6f3-4756-be8f-5b625c76e779" />
-	 1. Restart your computer to apply the change.
+3. Rename your computer. 
+   1. Navigate to `local server` and click on your computer's name.<br /> <img width="612" height="142" alt="image" src="https://github.com/user-attachments/assets/2d130a18-d6ab-4480-b88d-9d736f8ca5a8" /> <br />
+    1.  <img width="368" height="42" alt="image" src="https://github.com/user-attachments/assets/363269c8-9023-4eb7-841e-aed9ba97b5b5" /> <--- then select CHANGE in the bottom right 
+	 1. Change the name of your computer to `AL-DC-01` (AL can be substituted for your state). <br /> <img width="311" height="371" alt="image" src="https://github.com/user-attachments/assets/d209356e-f6f3-4756-be8f-5b625c76e779" />
+	  1. Restart your computer to apply the change.
 
-4. 
+5. Install Active Directory  
+   1. Select manage -> add roles and features -> press next until you get to Server Roles
+    1. Select Active Directory Domain Services, and thenn press Add Features. <br /> <img width="692" height="465" alt="image" src="https://github.com/user-attachments/assets/75585241-5f55-4f02-89d0-9ec405db2c1e" />
+     1. Press next and then press install on the final page, and wait for it to finish installing.
+  
+coffee break... ☕
+
+
+
 
 
 
