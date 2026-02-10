@@ -36,9 +36,8 @@ What I want from this project:
       	1. Once the VM begins rebooting, remove the boot up disk. Then input a password for the Admin.
 
 3. Rename your computer. 
-   1. Navigate to `local server` and click on your computer's name.<br /> <img width="612" height="142" alt="image" src="https://github.com/user-attachments/assets/2d130a18-d6ab-4480-b88d-9d736f8ca5a8" /> <br />
-    1.  <img width="368" height="42" alt="image" src="https://github.com/user-attachments/assets/363269c8-9023-4eb7-841e-aed9ba97b5b5" /> <--- then select CHANGE in the bottom right 
-	 1. Change the name of your computer to `AL-DC-01` (AL can be substituted for your state). <br /> <img width="311" height="371" alt="image" src="https://github.com/user-attachments/assets/d209356e-f6f3-4756-be8f-5b625c76e779" />
+   1. Navigate to `local server` and click on your computer's name, and then select CHANGE in the bottom right 
+	 1. Change the name of your computer to `(the first two initials of your state-DC-01` 
 	  1. Restart your computer to apply the change.
 
 5. Install Active Directory  
@@ -50,13 +49,33 @@ coffee break... ☕
 
 6. Promote your computer to a Domain Controller
    1. Click on the flag with a caution sign in the top left, and then on `Promote this server to a Domain Controller`
-    1. Select `Add a new forest`, and then input your custom domain name. <br /> <img width="420" height="160" alt="image" src="https://github.com/user-attachments/assets/fab35437-f22b-4f33-a138-f61d5a352db3" />
+    1. Select `Add a new forest`, and then input your custom domain name.  
 	 1. On the next page input your Administrator password and hit next until you're prompted to install, and then start to apply changes.
 
-7. Install guest addition on your Domain Controller
+7. Create a shared folder for your computer
    1. Select devices at the top of the VM window and select `inset guest additions`
     1. Open file explorer and navigate to `CD Drive (D:)VirtualBox`
-     1. Install `VBoxWindowsAdditions-arm64` <br /> <img width="603" height="111" alt="image" src="https://github.com/user-attachments/assets/8df4bebb-158c-4837-83a3-f52457560667" />
+     1. Install `VBoxWindowsAdditions-amd64`, and let it reboot your system after it is done
+        1. Once it's done rebooting, navigate to devices -> shared folders -> shared folder settings.
+           1. Create a new folder, and navigae to other, and then create a folder that will be shared to the machine. Make sure that `auto mount` and `make machine-permanent` are both selected.
+              1. You will now be able to access this folder through file explorerer, and it will be marked as a new drive on the VM.
+             
+8. Create your user base.
+   1. Navigate to Tools -> Active Directory User and Computers, and then your domain folder.
+    1. Right click on Users and create a new user. Enter the information for the user (First name, Last name, Full name, and username.)
+     1. This will be YOUR admin login, so use your first and last name. Uncheck the first box, and check 'Password never expires'.
+      1. Next we'll create a an employee user. When you create the username, try to make it as close to a company login as you can. First Name, First Letter of the last name.
+       1. Example: Myles maters, employee number | MylesM@kalasy.com  
+      1. When creating the password, don't make it the same as your admin password, try to be unique.  
+     1. For this user, I would recreate setting a default first-login password, that they must change after. Example: (yourcompanyname123!?)  
+    1. If you want you can fill in both users address, role, and etc.  
+        ***ADD A SCREENSHOT HERE***
+
+	   
+# 👤 Setup your User Virtual Machine 
+        
+1. 
+
 
 
 
